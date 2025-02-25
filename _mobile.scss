@@ -1,0 +1,109 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        padding-bottom: 32px;
+    }
+
+    .top__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .button {
+        margin-left: 15%;
+    }
+
+    .games__box__cart_image {
+        position: relative;
+        width: 343px;
+        height: 300px;
+    }
+
+    .seasons {
+        padding-top: 128px;
+        padding-bottom: 85px;
+
+        &__game {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &__text {
+            font-style: normal;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            width: 343px;
+        }
+
+        &__button {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        &__info-img {
+            width: 344px;
+            height: 236px;
+            padding-left: 16px;
+            padding-top: 64px;
+        }
+    }
+
+
+    .words {
+        padding-bottom: 128px;
+        padding-top: 85px;
+
+        &__content {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 64px;
+
+            &_box_right {
+                width: 343px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1px;
+
+                &_header {
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 59px;
+                    color: #FFFFFF;
+                    text-align: center;
+                }
+
+                &_text {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                    text-align: center;
+                }
+            }
+
+            &_box_left {
+                width: 344px;
+                height: 236px;
+            }
+        }
+    }
+}
