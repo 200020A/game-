@@ -14,7 +14,7 @@
 
 JavaScript, HTML, CSS (SASS), БЭМ
 
-### Запуск проекта
+### Деплой проекта
 
 ссылка (https://200020a.github.io/game-/)
 
